@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Libre+Baskerville:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    color: #868686;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #868686;
+}
+.section{
+    float:left;
+    width:100%;
+}
+.container{
+    float:none;
+    width: 100%;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+a:hover{
+    color:#af7f66;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase ;
+}
+button{
+    margin: 30px 0px;
+
+}
+/*header*/
+ .nav > div > div{
+    float: left;
+    width: 33.3333%;
+    /*margin-top: 20px;*/
+}
+.nav{
+    margin-top: 20px;
+}
+.hleft ul li{
+    float: left;
+    margin-left: 20px ;
+}
+
+.hright ul li {
+    float: right;
+    margin-right: 20px;
+}
+/*endheader*/
+
+/*main*/
+
+.slider{
+    background-image: url("../images/h4-copyright.png");
+    text-align: center;
+    min-height: 300px;
+    padding: calc(15%);
+    margin: 30px 0px;
+}
+.blog >div {
+    margin-left: 150px;
+
+}
+.main{
+    display: flex;
+    padding: 100px 0px;
+}
+.main > .blog{
+    box-sizing: border-box;
+    width: 70%;
+}
+.main > .store{
+    box-sizing: border-box;
+    width: 30%;
+    margin: 0px 30px ;
+}
+.blog >div {
+    padding: 30px 0px;
+    border-bottom: 2px lightgray solid;
+}
+.blog >div:first-child{
+    padding-top: 0px;
+}
+.content{
+    text-align: left;
+    box-sizing: border-box;
+    padding: 3rem 4.8rem;
+}
+.content >h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px 0px;
+
+}
+.demo{
+    background-color: black;
+}
+.demo1{
+    background-color: lightgray;
+    box-sizing: border-box;
+    padding-top: 3em;
+    margin-top: 3em;
+    padding-left: 3em;
+}
+.demo1 >h1{
+    text-align: left;
+}
+.demo1 >ul>li{
+    text-align: left;
+}
+
+.demo2{
+    background-color: lightgray;
+    box-sizing: border-box;
+    padding-top: 3em;
+    margin-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.demo2>h1{
+    text-align: left;
+}
+.demo2 >div >h1{
+    text-align: left;
+}
+.demo2 >ul >li {
+    text-align: left;
+    padding: 0px;
+}
+.demo2 >div >ul >li >a{
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+
+.demo3{
+    background-color: lightgray;
+    box-sizing: border-box;
+    padding-top: 3em;
+    margin-top: 3em;
+    padding-left: 3em;
+}
+.demo3 >div >h1{
+    text-align: left;
+    padding-bottom: 10px;
+    border: 2px lightgray solid;
+}
+.demo3 >div >ul >li{
+    text-align: left;
+}
+.demo4 {
+    background-color: lightgray;
+    box-sizing: border-box;
+    padding-top: 3em;
+    margin-top: 3em;
+    padding-left: 3em;
+}
+.demo4 >div {
+    text-align: left;
+}
+.demo4 >div >h1{
+    padding-bottom: 10px;
+}
+.demo4 >div >p {
+    padding-bottom: 10px;
+}
+/*endmain*/
+/* footer*/
+.footer {
+    background: #272626;
+    margin-top: 50px;
+    height: 800px;
+}
+.footer .container > div{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+
+}
+
+.link > div{
+    width: 33.33%;
+    float: left;
+}
+.link > div>ul {
+    display: grid;
+}
+.link > div > ul > li{
+    text-align: left;
+}
+.signup{
+    float:left;
+}
+
+.info {
+    width: 33.3333%;
+    float: left;
+
+}
+
+.axiom{
+    text-align: center;
+    padding-top: 200px;
+}
+/*endfooter*/
